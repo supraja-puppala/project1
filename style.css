@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header div p {
+    font-size: 3em;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 5em
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 4.2em
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 3.4em
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.8em
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+
+}
+
+.link-button:hover {
+    color: white;
+}
+
+#bio img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#portfolio {
+    background-color: black;
+    color: white;
+
+}
+
+#portfolio hr {
+    width: 400px;
+}
+
+#portfolio div article {
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 350px;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+#skills ul {
+    font-size: 1.5em;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+
+}
+
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+}
